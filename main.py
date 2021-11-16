@@ -1,6 +1,20 @@
 from random import randrange
 from matplotlib import pyplot as plt
 
+import os
+
+cwd = os.getcwd()
+plots_dir = os.path.join(cwd, "plots")
+
+try:
+    os.mkdir(plots_dir)
+    plot_name = "plot1.png"
+except:
+    plots = len(os.listdir(plots_dir)) + 1
+    plot_name = f"plot{plots}.png"
+    plot_path =  os.path.join(plots_dir, plot_name)
+
+
 origin = [0,0] # point A
 base_vertex = [10, 0] # point B
 max_x = 10
@@ -26,7 +40,7 @@ def get_point(die_roll):
 
 starting_point = origin
 
-for _ in range(1000):
+for _ in range(100000):
 
     die_roll = randrange(1, 7)
     destination_point = get_point(die_roll)
@@ -39,5 +53,5 @@ for _ in range(1000):
     starting_point = [mid_x, mid_y]
 
 plt.scatter(x, y, s=4)
-plt.savefig("plot.py")
+plt.savefig(plot_path)
 plt.show()
