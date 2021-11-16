@@ -11,6 +11,21 @@ Renders traingular patters ( [Sierpinsky Triangle](https://en.wikipedia.org/wiki
 ## Installation and Usage
 
 
+### Cloning the repo
+
+Use the following git command :
+
+```bash
+git clone https://github.com/AabhasKrJha/sierpinsky-triangle.git
+```
+
+and then change the dir using the following command :
+
+```bash
+cd sierpinsky-triangle
+```
+
+
 ### Installation
 
 Run the following command in your terminal to install [matplotlib](https://matplotlib.org/) using [pip](https://pip.pypa.io/en/stable/) globally.
