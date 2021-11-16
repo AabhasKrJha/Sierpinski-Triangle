@@ -39,5 +39,5 @@ for _ in range(1000):
     starting_point = [mid_x, mid_y]
 
 plt.scatter(x, y, s=4)
-plt.savefig()
+plt.savefig("plot.py")
 plt.show()
