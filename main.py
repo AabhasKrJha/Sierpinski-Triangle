@@ -38,13 +38,6 @@ for _ in range(1000):
 
     starting_point = [mid_x, mid_y]
 
-print(x)
-print(y)
-
-# print(origin)
-# print(base_vertex)
-# print(top_vertex)
-# print( [mid_x, mid_y])
-
-plt.scatter(x, y)
+plt.scatter(x, y, s=4)
+plt.savefig()
 plt.show()
