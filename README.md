@@ -2,10 +2,10 @@
 
 Renders traingular patters ( [Sierpinsky Triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle) ) like the ones given in the images below using the matplotlib graphing library in [Python](https://www.python.org/).
 
-![alt text](./plots/plot1.png)
-![alt text](./plots/plot2.png)
-![alt text](./plots/plot3.png)
-![alt text](./plots/plot4.png)
+![sample plot 1](./plots/plot1.png)
+![sample plot 2](./plots/plot2.png)
+![sample plot 3](./plots/plot3.png)
+![sample plot 4](./plots/plot4.png)
 
 
 ## Installation and Usage
