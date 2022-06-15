@@ -1,6 +1,6 @@
-#  Sierpinsky Triangle
+#  Sierpinski Triangle
 
-Renders traingular patters ( [Sierpinsky Triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle) ) like the ones given in the images below using the matplotlib graphing library in [Python](https://www.python.org/).
+Renders traingular patters ( [Sierpinski Triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle) ) like the ones given in the images below using the matplotlib graphing library in [Python](https://www.python.org/).
 
 ![sample plot 1](./plots/plot1.png)
 ![sample plot 2](./plots/plot2.png)
@@ -16,13 +16,13 @@ Renders traingular patters ( [Sierpinsky Triangle](https://en.wikipedia.org/wiki
 Use the following git command :
 
 ```bash
-git clone https://github.com/AabhasKrJha/sierpinsky-triangle.git
+git clone https://github.com/AabhasKrJha/Sierpinski-Triangle.git
 ```
 
 and then change the dir using the following command :
 
 ```bash
-cd sierpinsky-triangle
+cd Sierpinski-Triangle
 ```
 
 
